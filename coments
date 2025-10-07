@@ -1,0 +1,39 @@
+//
+
+1. (posicao) do CSS nao funciona quebrando as imagens e textos do principal
+2. o titulo do label 
+3. espacamento do footer e newsletter 
+4. caixa das categorias 
+5. diferentes tamanhos dos cards
+6. botao lilas some quando passa o cursor 
+7. as imagens do mobile não estão corretas
+
+//
+
+<h2 class="text-center my-3">Busque por categoria:</h2>
+<div class="container row row-cols-2 mx-auto g-4"> 
+  <div class="col-6 col-md-4 col-xxl-2">
+    <div class="card rounded-0 border-0">
+    <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/categorias/categoria-camiseta.png" alt="">
+    <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/categorias/categoria-camiseta.png" alt="">
+    <img class="d-none d-md-none d-xl-block" src="./meteora-assets-main/assets/Desktop/categorias/categoria-camiseta.png" alt="">
+      <div class="text-header">
+        <p class="text-center">Camisetas</p>
+      </div>
+
+      <h2 class="text-center my-3">Produtos que estão bombando</h2>
+      <div class="container row row-cols-2 mx-auto g-4"> 
+        <div class="card col-12 col-md-6 col-xxl-4">
+          <div class="card">
+            <div class="card-body">
+              <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/produtos/camiseta.png">
+              <img class="d-md-block d-none d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/camiseta.png"></img>
+              <img class="d-md-none d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/camiseta.png"></img>
+              <h5 class="card-title">Camiseta conforto</h5>
+               <p class="card-text text-center">Multicores e tamanhos. Tecido de algodão 100% fresquinho para o verão. Modelagem unissex.</p>
+              <p>R$70,00</p>
+              <a href="#" class="btn botao-lilas text-light rounded-0 border-0">Ver mais</a>
+            </div>
+
+            <h2 class="text-center my-3 my-xl-5">Produtos que estão bombando</h2>
+            <div class="container row mx-auto g-4">
